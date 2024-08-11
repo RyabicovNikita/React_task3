@@ -1,0 +1,46 @@
+.app {
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+.error {
+	display: block;
+	color: var(--error-color);
+	font-weight: bold;
+}
+.tic-tac-toe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btnStartNewGame {
+	padding: 0.5em 0.75em;
+	background-color: var(--main-color);
+	color: black;
+	font-size: 23px;
+	border: none;
+	transition: background-color 0.15s ease;
+	width: 200px;
+	height: 20px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.btnStartNewGame:hover {
+	background-color: #75715d;
+	color: white;
+}
+
+.btnStartNewGame:disabled {
+	background-color: var(--disabled-color);
+}

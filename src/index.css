@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 :root {
-	--accent-color-hue: 236;
-	--accent-color-saturation: 100%;
 	--disabled-color: #cfcfcf;
 	--error-color: #d40000;
+	--main-color: #cbc5a0;
 }
 #root {
 	height: 100vh;
@@ -10,14 +10,18 @@
 	justify-content: center;
 	align-items: center;
 }
+button {
+	all: unset;
+}
 body {
+	color: var(--main-color);
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-		'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Permanent Marker', 'Arial', cursive;
+	font-size: 95px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+.col-4 {
+	width: 33.333333333%;
 }

@@ -1,0 +1,18 @@
+.fields-container {
+	width: 500px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	border: 20px solid var(--main-color);
+	border-radius: 15px;
+	background-color: black;
+}
+.fields-container__field {
+	height: 148px;
+	text-align: center;
+	border: 5px solid var(--main-color);
+	box-sizing: border-box;
+	cursor: pointer;
+}
